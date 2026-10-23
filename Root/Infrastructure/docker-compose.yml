@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: scanner
+      POSTGRES_USER: scanner
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-scanner}
+    ports:
+      - "5432:5432"
+    volumes:
+      - scanner-pgdata:/var/lib/postgresql/data
+      - ./postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U scanner -d scanner"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: ../../Projects/Backend/ProductApi
+    environment:
+      ConnectionStrings__Products: Host=postgres;Port=5432;Database=scanner;Username=scanner;Password=${POSTGRES_PASSWORD:-scanner}
+      ASPNETCORE_URLS: http://0.0.0.0:8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  scanner-pgdata:

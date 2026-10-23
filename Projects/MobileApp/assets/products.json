@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "PHN-001",
+      "name": "Aurora X1",
+      "description": "6.4-inch OLED display, 128 GB storage, dual 50 MP camera, 5000 mAh battery.",
+      "color": "Midnight Black",
+      "quantity": 12,
+      "barcode": "2000000000015",
+      "qrCode": "{\"id\":\"PHN-001\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-002",
+      "name": "Nova S2",
+      "description": "6.5-inch AMOLED display, 256 GB storage, triple camera, 4800 mAh battery.",
+      "color": "Ocean Blue",
+      "quantity": 7,
+      "barcode": "2000000000022",
+      "qrCode": "{\"id\":\"PHN-002\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-003",
+      "name": "Pulse 7",
+      "description": "6.1-inch LCD display, 64 GB storage, dual camera, 4500 mAh battery.",
+      "color": "Arctic White",
+      "quantity": 0,
+      "barcode": "2000000000039",
+      "qrCode": "{\"id\":\"PHN-003\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-004",
+      "name": "Vertex Pro",
+      "description": "6.7-inch LTPO OLED display, 512 GB storage, 108 MP camera, 5000 mAh battery.",
+      "color": "Graphite Gray",
+      "quantity": 4,
+      "barcode": "2000000000046",
+      "qrCode": "{\"id\":\"PHN-004\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-005",
+      "name": "Lumen Mini",
+      "description": "5.8-inch OLED display, 128 GB storage, compact flagship, 4000 mAh battery.",
+      "color": "Coral Pink",
+      "quantity": 15,
+      "barcode": "2000000000053",
+      "qrCode": "{\"id\":\"PHN-005\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-006",
+      "name": "Orion Max",
+      "description": "6.8-inch AMOLED display, 256 GB storage, 200 MP camera, 5500 mAh battery.",
+      "color": "Forest Green",
+      "quantity": 0,
+      "barcode": "2000000000060",
+      "qrCode": "{\"id\":\"PHN-006\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-007",
+      "name": "Aero Lite",
+      "description": "6.3-inch OLED display, 128 GB storage, lightweight body, 4800 mAh battery.",
+      "color": "Sky Blue",
+      "quantity": 9,
+      "barcode": "2000000000077",
+      "qrCode": "{\"id\":\"PHN-007\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-008",
+      "name": "Titan Edge",
+      "description": "6.6-inch OLED display, 256 GB storage, titanium frame, 5000 mAh battery.",
+      "color": "Titanium Silver",
+      "quantity": 3,
+      "barcode": "2000000000084",
+      "qrCode": "{\"id\":\"PHN-008\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-009",
+      "name": "Zenith 5G",
+      "description": "6.5-inch OLED display, 256 GB storage, 5G, 5000 mAh battery.",
+      "color": "Deep Purple",
+      "quantity": 0,
+      "barcode": "2000000000091",
+      "qrCode": "{\"id\":\"PHN-009\",\"type\":\"phone\"}"
+    },
+    {
+      "id": "PHN-010",
+      "name": "Solstice",
+      "description": "6.4-inch AMOLED display, 128 GB storage, 64 MP camera, 4600 mAh battery.",
+      "color": "Sunset Gold",
+      "quantity": 6,
+      "barcode": "2000000000107",
+      "qrCode": "{\"id\":\"PHN-010\",\"type\":\"phone\"}"
+    }
+  ]
+}

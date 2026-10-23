@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="QRScanner.Core.Tests/QRScanner.Core.Tests.csproj" />
+  <Project Path="QRScanner.Core/QRScanner.Core.csproj" />
+</Solution>

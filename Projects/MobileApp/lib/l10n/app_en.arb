@@ -1,0 +1,171 @@
+{
+  "@@locale": "en",
+  "appName": "Scanner",
+  "language": "Language",
+  "languageEnglish": "English",
+  "languageAzerbaijani": "Azərbaycan dili",
+  "languageRussian": "Русский",
+  "soundOn": "Sound on",
+  "soundOff": "Sound off",
+  "signOut": "Sign out",
+  "loginSubtitle": "Sign in to start scanning.",
+  "username": "Username",
+  "password": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "usernameRequired": "Enter your username.",
+  "passwordRequired": "Enter your password.",
+  "signIn": "Sign in",
+  "demoAccess": "Demo access: {username} / {password}",
+  "@demoAccess": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "cameraAfterSignIn": "Camera access is requested after sign-in.",
+  "authMissingFields": "Enter your username and password.",
+  "authInvalidCredentials": "Incorrect username or password.",
+  "authFailed": "Sign-in failed. Try again.",
+  "authTimedOut": "Sign-in timed out. Try again.",
+  "authUnreachable": "Could not reach the server. Check your connection and try again.",
+  "authUnexpected": "The server returned an unexpected response.",
+  "welcome": "Welcome, {username}",
+  "@welcome": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "homePrompt": "Scan a QR code or barcode to check a product's details and depot stock.",
+  "scanButton": "Scan code",
+  "scanComplete": "Scan complete",
+  "modeQr": "QR",
+  "modeBarcode": "Barcode",
+  "hintQr": "Point the camera at a QR code",
+  "hintBarcode": "Align the barcode inside the frame",
+  "permissionTitle": "Camera access needed",
+  "permissionRationale": "The app needs camera access to scan codes. No photos are stored or uploaded.",
+  "permissionDenied": "Camera access is blocked. Open app settings and allow Camera, then return here.",
+  "allowCamera": "Allow camera",
+  "openSettings": "Open settings",
+  "cameraUnavailable": "Camera unavailable",
+  "cameraUnavailableMessage": "The camera could not be started. Close other apps using it and try again.",
+  "retryCamera": "Retry camera",
+  "readyTitle": "Ready to scan",
+  "readyHint": "Choose QR or Barcode, then hold the code steady inside the frame.",
+  "lookingUp": "Looking up {code}…",
+  "@lookingUp": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "productFound": "Product found",
+  "notInStock": "Not in stock",
+  "inStock": "In stock",
+  "unavailable": "Unavailable",
+  "noSuchProduct": "No such product",
+  "noProductMatches": "No product matches “{code}”. Check the code and try again.",
+  "@noProductMatches": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "unsupportedCode": "Unsupported code",
+  "invalidHint": "The code was read but could not be used. Try a different code.",
+  "couldNotLoadProduct": "Could not load the product",
+  "tryAgain": "Try again",
+  "scanAnotherCode": "Scan another code",
+  "idLabel": "ID",
+  "colorLabel": "Color",
+  "stockLabel": "Stock",
+  "barcodeLabel": "Barcode",
+  "quantityInStock": "{count} in stock",
+  "@quantityInStock": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "outOfStock": "Out of stock",
+  "notAvailableDepot": "This product is not available in the depot.",
+  "lookupUnauthorized": "You are not authorized to view this product.",
+  "lookupServerUnavailable": "The server is unavailable. Try again later.",
+  "lookupRequestFailed": "The request failed (HTTP {statusCode}).",
+  "@lookupRequestFailed": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "lookupUnreachable": "Could not reach the server. Check your connection and try again.",
+  "lookupUnexpected": "The server returned an unexpected response.",
+  "lookupTimeout": "The request timed out. Try again.",
+  "lookupLocalData": "Could not read the local product data.",
+  "addToDepot": "Add to depot",
+  "addProductTitle": "Add product to depot",
+  "addProductCode": "Scanned code",
+  "productNameLabel": "Product name",
+  "productDescriptionLabel": "Description (optional)",
+  "productColorLabel": "Color (optional)",
+  "productQuantityLabel": "Quantity in stock",
+  "saveProduct": "Save product",
+  "cancelAction": "Cancel",
+  "nameRequired": "Enter the product name.",
+  "registerDuplicate": "This code is already in the depot.",
+  "registerFailed": "Could not save the product. Check your connection and try again.",
+  "modePhone": "Phone",
+  "phoneHint": "Show the back of a phone, then tap Identify",
+  "identifyButton": "Identify",
+  "identifying": "Identifying…",
+  "identifiedAs": "Identified as {name} ({percent}%)",
+  "@identifiedAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "notInDepotModel": "{name} is not in the depot.",
+  "@notInDepotModel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notAPhone": "No phone found. Point the camera at a phone.",
+  "lowConfidence": "Not sure. Try again with the whole phone in the frame.",
+  "recognitionNotConfigured": "Phone recognition is not set up on the server.",
+  "identifyAnother": "Identify another phone",
+  "phoneCameraError": "Could not open the camera.",
+  "notInDepotColor": "{name} in {color} is not in the depot. The depot has this model in: {colors}.",
+  "@notInDepotColor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "color": {
+        "type": "String"
+      },
+      "colors": {
+        "type": "String"
+      }
+    }
+  },
+  "colorNotDetected": "Could not tell the color. Check that it matches."
+}

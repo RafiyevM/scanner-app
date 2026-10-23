@@ -1,0 +1,32 @@
+name: qr_scanner
+description: Flutter implementation of the QR scanner.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  flutter_svg: ^2.0.17
+  http: ^1.2.2
+  mobile_scanner: ^6.0.2
+  permission_handler: ^11.3.1
+  camera: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/products.json
+    - assets/sounds/
+    - assets/images/phones/

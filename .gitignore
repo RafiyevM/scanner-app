@@ -1,0 +1,52 @@
+# .NET / C# core
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.proj.Backup.tmp
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+android/local.properties
+android/.gradle/
+android/.cxx/
+ios/Pods/
+ios/.symlinks/
+
+# IDE
+.idea/
+*.iml
+
+# Android build outputs
+*.apk
+*.aab
+captures/
+
+# Signing material — never commit
+*.jks
+*.keystore
+keystore.properties
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Locally installed toolchain (Android SDK, JDK, Flutter)
+.toolchain/
+
+# Claude Code local state
+.claude/.cc-writes/
+.claude/settings.local.json
+.claude/worktrees/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
