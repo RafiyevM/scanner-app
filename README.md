@@ -173,7 +173,7 @@ cd Projects/MobileApp && flutter build apk --dart-define=API_BASE_URL=https://<n
 For local Wi-Fi only (no tunnel), use the Mac’s LAN address instead:
 
 ```bash
---dart-define=API_BASE_URL=http://192.168.0.23:8080/
+--dart-define=API_BASE_URL=http://<your-mac-ip>:8080/
 ```
 
 Every scan calls `GET /products/{code}`; the API queries PostgreSQL and returns

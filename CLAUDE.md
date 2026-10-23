@@ -64,7 +64,7 @@ direct PostgreSQL access from the mobile app.
 - Online access: `Root/Scripts/start-backend.sh` starts PostgreSQL, the API, and
   a public Cloudflare tunnel. Rebuild with
   `--dart-define=API_BASE_URL=https://<url>/` when the tunnel URL changes.
-- LAN-only alternative: `--dart-define=API_BASE_URL=http://192.168.0.23:8080/`.
+- LAN-only alternative: `--dart-define=API_BASE_URL=http://<your-mac-ip>:8080/`.
 - USB fallback: `adb reverse tcp:8080 tcp:8080` with
   `--dart-define=API_BASE_URL=http://127.0.0.1:8080/`.
 - Set `dataSource = 'local'` to use the bundled catalog.

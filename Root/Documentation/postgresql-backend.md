@@ -219,7 +219,7 @@ URL, use a named Cloudflare tunnel or deploy the API to a host of your choice.
 LAN-only alternative (phone on the same Wi-Fi):
 
 ```bash
-flutter build apk --dart-define=API_BASE_URL=http://192.168.0.23:8080/
+flutter build apk --dart-define=API_BASE_URL=http://<your-mac-ip>:8080/
 ```
 
 ## The Flutter app uses PostgreSQL

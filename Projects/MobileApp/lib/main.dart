@@ -34,11 +34,11 @@ class AppConfig {
 
   // Must end with "/". Override at build time:
   //   flutter build apk --dart-define=API_BASE_URL=https://your-host/
-  // Defaults to the public HTTPS tunnel, so the app works without a USB cable.
+  // The default is a placeholder; Root/Scripts/build-flutter.sh passes
+  // API_BASE_URL from the environment.
   static const String apiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue:
-        'https://walnut-maternity-mature-gardening.trycloudflare.com/',
+    defaultValue: 'https://your-api.example.com/',
   );
 
   // "local" uses the demo credential gate below.
